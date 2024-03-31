@@ -1,10 +1,9 @@
 {% extends 'templete_base.html' %}
 
 {% block contenu %}
-<ul>
-    <li>Article 1</li>
-    <li>Article 2</li>
-    <li>Article 3</li>
-</ul>
+<h3>Les articles :</h3>
+{% for article in articles %}
+    <p><strong>Mes articles</strong></p>
+{%endfor%}
 {% endblock %}
 
