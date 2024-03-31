@@ -54,7 +54,7 @@ ROOT_URLCONF = 'Essai1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["Templetes"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
