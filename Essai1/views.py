@@ -8,3 +8,6 @@ def home_view(request):
 def contact_view(request):
     return render(request,"contact.html")
     # return HttpResponse("Contactez nous ! ")
+
+def articles_view(request):
+    return render(request,"articles.html")
