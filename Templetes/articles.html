@@ -1,11 +1,15 @@
 {% extends 'templete_base.html' %}
 
 {% block contenu %}
-<h3>Les articles :</h3>
+<div class="d-flex justify-content-center" >
+    <div>
+        <h3 class="text-white" >Les articles :</h3>
 {% for article in articl %}
     <p><strong>{{ article.titre }}</strong></p>
     <p>Publier le : {{ article.datepub }}</p>
     <p>Auteur: <mark>{{ article.auteur }}</mark></p>
+    </div>
+</div>
 {%endfor%}
 {% endblock %}
 
