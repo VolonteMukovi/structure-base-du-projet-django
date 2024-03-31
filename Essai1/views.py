@@ -11,4 +11,4 @@ def contact_view(request):
     # return HttpResponse("Contactez nous ! ")
 
 def articles_view(request):
-    return render(request,"articles.html",context={'articles':'articles'})
+    return render(request,"articles.html",context={'articl':articles})
