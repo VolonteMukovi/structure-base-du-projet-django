@@ -1,16 +1,5 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>page d'accueill</title>
-</head>
-<body>
-    <ul>
-        <li><a href="/">Accueill</a></li>
-        <li><a href="/contact/">Contact</a></li>
-        <li><a href="/articles/">Articles</a></li>
-    </ul> <br><br>
+{% extends 'templete_base.html' %}
 
+{% block contenu %}
     <h1> Bienvenue sur nnotre site construit avec Django </h1>
-</body>
-</html>
+{% endblock %}
